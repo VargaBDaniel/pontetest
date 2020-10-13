@@ -243,15 +243,20 @@
     background-color: #0093D8;
     -ms-flex-item-align: end;
         align-self: flex-end;
+    margin-top: 25px;
   }
   body .contact-wrapper .container form h5 {
     font-size: .8rem;
     color: #C8C8C8;
-    margin-top: -15px;
+    margin-top: -25px;
     margin-left: 20px;
   }
-  body .contact-wrapper .container form input,
-  body .contact-wrapper .container form textarea {
+  body .contact-wrapper .container form div {
+    position: relative;
+    margin-bottom: 25px;
+  }
+  body .contact-wrapper .container form div input,
+  body .contact-wrapper .container form div textarea {
     font-family: roboto-l;
     font-size: .9rem;
     color: #FFF;
@@ -261,18 +266,26 @@
     border: 1px solid #000000;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    margin-bottom: 25px;
   }
-  body .contact-wrapper .container form input:focus,
-  body .contact-wrapper .container form textarea:focus {
+  body .contact-wrapper .container form div input:focus,
+  body .contact-wrapper .container form div textarea:focus {
     outline: 1px solid #0093D8;
   }
-  body .contact-wrapper .container form input {
+  body .contact-wrapper .container form div input {
     height: 40px;
   }
-  body .contact-wrapper .container form textarea {
+  body .contact-wrapper .container form div textarea {
     height: 120px;
     resize: none;
+  }
+  body .contact-wrapper .container form div label {
+    font-family: roboto-l;
+    color: #FFF;
+    height: 16px;
+    line-height: 16px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
   }
   body footer {
     background-color: #2D333D;

@@ -153,9 +153,18 @@
             <div class="container">
                 <h1 class="title">Contact Form</h1>
                 <form action="">
-                    <input type="text" id="name">
-                    <input type="text" id="email">
-                    <textarea id="message" maxlength="200" resize="none"></textarea>
+                    <div>
+                        <label for="name">name</label>
+                        <input type="text" id="name" class="form-input">
+                    </div>
+                    <div>
+                        <label for="email">email</label>
+                        <input type="text" id="email" class="form-input">
+                    </div>
+                    <div>
+                        <label for="message">message</label>
+                        <textarea id="message" maxlength="200" class="form-input"></textarea>
+                    </div>
                     <h5>maximum 200 karakter - <span id="charCounter">200</span> maradt</h5>
                     <button type="submit">Send
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
@@ -179,6 +188,8 @@
         <script src="scripts/jquery-3.3.1.min.js"></script>
         <script src="scripts/popper.min.js"></script>
         <script src="scripts/bootstrap.min.js"></script>
+
+        <script src="scripts/pontetest.js"></script>
     </body>
 
 </html>

@@ -281,38 +281,53 @@ $input-color: #252628;
                         border: none;
                         background-color: $accent-color;
                         align-self: flex-end;
+                        margin-top: 25px;
                     }
                     h5 {
                         font-size: .8rem;
                         color: #C8C8C8;
-                        margin-top: -15px;
+                        margin-top: -25px;
                         margin-left: 20px;
                     }
-
-                    input,
-                    textarea {
-                        font-family: roboto-l;
-                        font-size: .9rem;
-                        color: #FFF;
-                        text-indent: 5px;
-                        width: 100%;
-                        background-color: $input-color;
-                        border: 1px solid #000000;
-                        box-sizing: border-box;
-
+                    div {
+                        position: relative;
                         margin-bottom: 25px;
 
-                        &:focus {
-                            outline: 1px solid $accent-color;
+                        input,
+                        textarea {
+                            font-family: roboto-l;
+                            font-size: .9rem;
+                            color: #FFF;
+                            text-indent: 5px;
+                            width: 100%;
+                            background-color: $input-color;
+                            border: 1px solid #000000;
+                            box-sizing: border-box;
+    
+                            &:focus {
+                                outline: 1px solid $accent-color;
+                            }
                         }
-                    }
+    
+                        input {
+                            height: 40px;
+                        }
+                        textarea {
+                            height: 120px;
+                            resize: none;
+                        }
+    
+                        label {
+                            font-family: roboto-l;
+                            color: #FFF;
 
-                    input {
-                        height: 40px;
-                    }
-                    textarea {
-                        height: 120px;
-                        resize: none;
+                            height: 16px;
+                            line-height: 16px;
+
+                            position: absolute;
+                            top: 12px;
+                            left: 12px;
+                        }
                     }
                 }
             }
