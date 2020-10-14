@@ -465,17 +465,15 @@
     width: 100%;
   }
   body .carousel-wrapper .carousel-inner .carousel-item {
-    max-width: 100%;
-    height: 100%;
+    width: 100%;
   }
   body .carousel-wrapper .carousel-inner .carousel-item img {
-    width: 100%;
+    width: 100vw;
     margin-left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
   body .carousel-wrapper .carousel-inner .carousel-item .carousel-caption {
-    width: 960px;
     bottom: 100px;
     position: absolute;
     left: calc(50% - 480px);

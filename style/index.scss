@@ -530,23 +530,21 @@ $input-color: #252628;
 
         .carousel-wrapper {
             width: 100%;
-            // height: 600px;
 
             .carousel-inner {
                 width: 100%;
 
                 .carousel-item {
-                    max-width: 100%;
-                    height: 100%;
+                    width: 100%;
 
                     img {
-                        width: 100%;
+                        width: 100vw;
                         margin-left: 50%;
                         transform: translateX(-50%);
                     }
 
                     .carousel-caption {
-                        width: 960px;
+                        // width: 960px;
                         bottom: 100px;
 
                         position: absolute;

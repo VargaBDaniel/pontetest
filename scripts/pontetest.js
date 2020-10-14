@@ -31,24 +31,6 @@ $('.option').click(function() {
         }
     });
 });
-// Dropdown Menu sub-option open/close DESKTOP
-// $('.nav-menu-desktop > .option').hover(function() {
-//     let dropdownNum = $(this).attr('data-drpdwn-num');
-//     let dropdownSubArray = $('.sub-wrapper[data-drpdwn-sub-num=' + dropdownNum + ']');
-    
-//     console.log(dropdownSubArray);
-//     dropdownSubArray.each(function() {
-//         if ($(this).hasClass('visible')) {
-//             $(this).removeClass('visible');
-//         } else {
-//             $(this).addClass('visible');
-//         }
-//     });
-// });
-// $('.sub-wrapper').hover(function() {
-//     let dropdownNum = $(this).attr('data-drpdwn-sub-num');
-//     $('.option[data-drpdwn-sub-num=' + dropdownNum + ']').hover();
-// })
 
 //Relocate desktop dropdown menu sup options
 $(document).ready(function() {
