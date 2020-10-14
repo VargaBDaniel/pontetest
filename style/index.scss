@@ -678,8 +678,15 @@ $input-color: #252628;
                     justify-content: center;
                     align-items: center;
 
+                    &:hover {
+                        img {
+                            height: 120px;
+                        }
+                    }
+
                     img {
                         height: 100px;
+                        transition: .05s linear;
                     }
                 }
             }

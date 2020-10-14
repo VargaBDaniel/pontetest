@@ -588,8 +588,13 @@
         -ms-flex-align: center;
             align-items: center;
   }
+  body .partners-wrapper .container .item:hover img {
+    height: 120px;
+  }
   body .partners-wrapper .container .item img {
     height: 100px;
+    -webkit-transition: .05s linear;
+    transition: .05s linear;
   }
   body .contact-wrapper {
     width: 100%;
